@@ -7,14 +7,15 @@
 
 :root {
   --fuente-titulo: 'Letrapersonalizada';
+  margin: 0;
+  padding: 0;
 }
 
 body{
   font-family: var(--fuente-titulo);
   font-size: 40px;
   text-align: center;
-  color: white;
-        
+  color: white;        
 }
 
 /*
@@ -44,8 +45,7 @@ Aquí esta el index.html
     height: 200px;
 }
 
-.image{
-    
+.image{    
     display: block;
     margin: 2rem auto;
     background-size: cover;
@@ -89,6 +89,8 @@ Aquí empieza la tabla .......
   background-color: #0c3e11;
 }
 
+
+
 .blata{
   background-image: url('../img/cabecera.png');
   display: block;
@@ -101,23 +103,27 @@ table {
     border-collapse: collapse;
     border: 7px solid  rgb(0, 0, 0);
     font-family: Helvetica;
-    font-weight: bold;
-    margin: 2rem auto;    
+    margin: 2rem auto;   
   }
 
   td{
-    padding: 0rem;
-    border: 7px solid rgb(0, 0, 0);
-    height: 80px;   
-    width: 110px;
+    border: 7px solid rgb(0, 0, 0);   
+    width: 70px;
+    height: 70px;
     color: black;
-    font-size: 40px;
-    vertical-align: top;
   }
 
-  sub{
+  .letter{
+    margin: 1px;
+    top: 1px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .little{
+    margin: 1px;
     font-size: 10px;
-    font-weight: normal;    
+    font-weight: normal;
   }
 
   /* Colores */
@@ -167,8 +173,7 @@ table {
   .WW{    
     background-image: url(../img/Tabla_Periódica/walterwhite.png);
     background-repeat: no-repeat;
-    background-position: top;
-    vertical-align: bottom;    
+    background-position: top;   
   }
 
   .FBI{
@@ -192,12 +197,19 @@ table {
   
   .Ha{
     background-image: url(../img/Tabla_Periódica/hankschrader.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
   }
 
   .HE{
     background-image: url(../img/Tabla_Periódica/hectorsalamanca.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .TS{
+    background-image: url(../img/Tabla_Periódica/tucosalamanca.png);
     background-repeat: no-repeat;
     background-position: bottom;
   }
@@ -241,65 +253,73 @@ table {
 /*
 Cosas de la Tabla 2
 */
-  .tamaño2{
-    width: 50%;
-  }
+
   .AC{
     background-image: url(../img/Tabla_Periódica/bus.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .PI{
     background-image: url(../img/Tabla_Periódica/pistola.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .TE{
     background-image: url(../img/Tabla_Periódica/pocima.png);
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .MO{
     background-image: url(../img/Tabla_Periódica/movil.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .FL{
     background-image: url(../img/Tabla_Periódica/mosca.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .Cristal{
     background-image: url(../img/Tabla_Periódica/cristal.png);
+    background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .Pizza{
     background-image: url(../img/Tabla_Periódica/pizza.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .Calzon{
     background-image: url(../img/Tabla_Periódica/calzoncillos.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .Mascara{
     background-image: url(../img/Tabla_Periódica/mascara.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .Plato {
     background-image: url(../img/Tabla_Periódica/plato.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
