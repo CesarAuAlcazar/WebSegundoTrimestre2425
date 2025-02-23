@@ -1,0 +1,335 @@
+@font-face {
+  font-family: 'Letrapersonalizada';
+  src: url('../Breaking_Bad.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --fuente-titulo: 'Letrapersonalizada';
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--fuente-titulo);
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+/*
+Aquí esta el index.html
+*/
+
+.fondo {
+  background-image: url('../img/fondo.jpg');
+  background-size: 100%;
+}
+
+.color-borde {
+  border: 10px brown;
+  border-style: outset;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+}
+
+.logo {
+  background-image: url('../img/logo.PNG');
+  display: block;
+  margin: 1rem auto;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.image {
+  display: block;
+  margin: 2rem auto;
+  background-size: cover;
+  width: 700px;
+  height: 300px;
+}
+
+/*
+Aquí empieza el formulario
+*/
+
+.letra {
+  font-family: Helvetica;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  margin: 2rem;
+}
+
+.box {
+  box-sizing: content-box;
+  width: 94%;
+  padding: 55px;
+}
+
+.formu {
+  color: white;
+}
+
+.boxe {
+  box-sizing: content-box;
+  width: 20%;
+  display: block;
+}
+
+/*
+Aquí empieza la tabla .......
+*/
+
+.fondo-tabla {
+  background-color: #0c3e11;
+}
+
+
+
+.blata {
+  background-image: url('../img/cabecera.png');
+  display: block;
+  margin: auto;
+  width: 450px;
+  height: 220px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 7px solid rgb(0, 0, 0);
+  font-family: Helvetica;
+  margin: 2rem auto;
+}
+
+td {
+  border: 7px solid rgb(0, 0, 0);
+  width: 70px;
+  height: 70px;
+  color: black;
+}
+
+.letter {
+  margin: 1px;
+  top: 1px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.little {
+  margin: 1px;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+/* Colores */
+
+.colorVA {
+  background-color: greenyellow;
+}
+
+.colorDOG {
+  background-color: rgb(95, 135, 25);
+}
+
+.colorabajo {
+  background-color: rgb(169, 210, 88);
+  ;
+}
+
+.colorceldas {
+  background-color: black;
+}
+
+.colorVOscuro {
+  background-color: rgb(33, 53, 8);
+}
+
+.colorGris {
+  background-color: silver;
+}
+
+.colorVC {
+  background-color: rgb(228, 243, 206);
+}
+
+.colortabla2 {
+  background-color: rgb(152, 189, 30);
+}
+
+.colorVG {
+  background-color: rgb(77, 99, 51);
+}
+
+.otroverde {
+  background-color: rgb(147, 219, 84);
+}
+
+/* Imágenes */
+
+.WW {
+  background-image: url(../img/Tabla_Periódica/walterwhite.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.FBI {
+  background-image: url(../img/Tabla_Periódica/skylerwhite.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.MS {
+  background-image: url(../img/Tabla_Periódica/marieschrader.png);
+  background-color: slateblue;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.SG {
+  background-image: url(../img/Tabla_Periódica/saulgoodman.png);
+  background-color: rgb(95, 135, 25);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.Ha {
+  background-image: url(../img/Tabla_Periódica/hankschrader.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.HE {
+  background-image: url(../img/Tabla_Periódica/hectorsalamanca.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.TS {
+  background-image: url(../img/Tabla_Periódica/tucosalamanca.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.corbata {
+  background-image: url(../img/Tabla_Periódica/gustavofrink.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.chili {
+  background-image: url(../img/Tabla_Periódica/jessiepinkman.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.porro {
+  background-image: url(../img/Tabla_Periódica/badger.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.taza {
+  background-image: url(../img/Tabla_Periódica/gale.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.Pistola {
+  background-image: url(../img/Tabla_Periódica/mike.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.pecera {
+  background-image: url(../img/Tabla_Periódica/tucosalamanca.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/*
+Cosas de la Tabla 2
+*/
+
+.AC {
+  background-image: url(../img/Tabla_Periódica/bus.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.PI {
+  background-image: url(../img/Tabla_Periódica/pistola.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.TE {
+  background-image: url(../img/Tabla_Periódica/pocima.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.MO {
+  background-image: url(../img/Tabla_Periódica/movil.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.FL {
+  background-image: url(../img/Tabla_Periódica/mosca.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Cristal {
+  background-image: url(../img/Tabla_Periódica/cristal.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Pizza {
+  background-image: url(../img/Tabla_Periódica/pizza.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Calzon {
+  background-image: url(../img/Tabla_Periódica/calzoncillos.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Mascara {
+  background-image: url(../img/Tabla_Periódica/mascara.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Plato {
+  background-image: url(../img/Tabla_Periódica/plato.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.extra {
+  font-family: Tahoma;
+  font-size: 12px;
+  padding-top: 9rem;
+  text-align: right;
+  vertical-align: bottom;
+}
